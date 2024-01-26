@@ -1,0 +1,31 @@
+.task-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.sub-card {
+  border: 1px black solid;
+  width: 230px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 5px;
+  border-radius: 5px;
+}
+.sub-card h4 {
+  padding: 10px;
+}
+
+.edit {
+  color: grey;
+  font-size: 25px;
+  margin: 5px;
+}
+.delete {
+  font-size: 25px;
+  color: red;
+}
+.icons div {
+  cursor: pointer;
+}
+.todo-bg {
+  position: relative;
+}

@@ -1,0 +1,35 @@
+.update-bg {
+  background-color: rgb(122, 122, 243);
+  position: fixed;
+  top: 18%;
+  left: 10%;
+  height: 65vh;
+  padding: 20px;
+  padding-left: 30px;
+  width: 82%;
+  border-radius: 10px;
+  flex-direction: column;
+  display: none;
+}
+.update-bg h1 {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+.update-bg input {
+  width: 87%;
+  padding: 10px;
+  border: 0;
+  outline: white;
+  margin: 10px;
+}
+.update-btn button {
+  border: white 1px solid;
+  padding: 10px;
+  margin: 15px;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
